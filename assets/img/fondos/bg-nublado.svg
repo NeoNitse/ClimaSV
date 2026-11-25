@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Fondo atmosférico nublado con neblina sobre cordillera salvadoreña">
+  <defs>
+    <linearGradient id="sky-nub" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="38%" stop-color="#64748B"/>
+      <stop offset="76%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="nub-mist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nub-volc-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748B" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#475569" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="nub-volc-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.96"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cielo cubierto sereno -->
+  <rect width="1920" height="1080" fill="url(#sky-nub)"/>
+
+  <!-- Capas de estratos nubosos -->
+  <g fill="#E2E8F0">
+    <path d="M-80 230 C160 170 380 250 660 205 C960 156 1240 245 1540 198 C1720 170 1840 192 1980 218 L1980 340 L-80 340 Z" opacity="0.22"/>
+    <path d="M-60 370 C240 315 510 385 840 342 C1140 302 1420 378 1710 336 C1810 322 1880 330 1980 348 L1980 490 L-60 490 Z" opacity="0.26"/>
+    <path d="M-40 520 C310 475 620 538 960 502 C1310 465 1590 532 1960 492 L1960 650 L-40 650 Z" opacity="0.20"/>
+  </g>
+
+  <!-- Silueta de doble cumbre estilo Volcán de San Vicente (Chinchontepec) -->
+  <path d="M0 780 L280 715 L520 742 L740 595 C758 583 780 584 798 596 L875 648 L960 582 C978 568 1002 568 1020 582 L1240 735 L1560 688 L1920 745 L1920 1080 L0 1080 Z" fill="url(#nub-volc-1)"/>
+
+  <!-- Velo de neblina entre montañas -->
+  <rect x="0" y="690" width="1920" height="210" fill="url(#nub-mist)"/>
+
+  <!-- Cordillera frontal -->
+  <path d="M0 858 L240 792 L510 832 L780 748 L1080 818 L1380 744 L1690 806 L1920 774 L1920 1080 L0 1080 Z" fill="url(#nub-volc-2)"/>
+
+  <!-- Base atmosférica oscura -->
+  <path d="M0 950 C420 922 860 978 1340 944 C1590 926 1770 946 1920 962 L1920 1080 L0 1080 Z" fill="#0F172A" opacity="0.82"/>
+</svg>

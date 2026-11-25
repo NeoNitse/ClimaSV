@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Parcialmente nublado">
+  <defs>
+    <linearGradient id="pn-sun" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="60%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="pn-cloud" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#E2EFFB"/>
+      <stop offset="100%" stop-color="#BFD9F2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rayos del sol superior derecho -->
+  <g stroke="#F59E0B" stroke-width="3" stroke-linecap="round">
+    <line x1="41" y1="8" x2="41" y2="12"/>
+    <line x1="52.5" y1="12.5" x2="49.7" y2="15.3"/>
+    <line x1="57" y1="24" x2="53" y2="24"/>
+    <line x1="29.5" y1="12.5" x2="32.3" y2="15.3"/>
+    <line x1="52.5" y1="35.5" x2="49.7" y2="32.7"/>
+  </g>
+
+  <!-- Disco solar -->
+  <circle cx="41" cy="24" r="10.2" fill="url(#pn-sun)"/>
+
+  <!-- Nube frontal institucional -->
+  <path d="M16.5 52h29.5c5.5 0 10-4.3 10-9.6 0-4.9-3.7-8.9-8.5-9.5-1.4-7-7.7-12.2-15.2-12.2-7.3 0-13.4 4.9-15 11.7-5.2.6-9.3 4.8-9.3 10 0 5.3 3.9 9.6 8.5 9.6z" fill="url(#pn-cloud)" stroke="#1E88E5" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Brillo superior de la nube -->
+  <path d="M22.5 31.8c1.7-4.2 5.7-6.8 10.3-6.8" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+</svg>

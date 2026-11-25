@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Fondo atmosférico de tormenta eléctrica sobre volcanes de El Salvador">
+  <defs>
+    <linearGradient id="sky-storm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06101F"/>
+      <stop offset="38%" stop-color="#0F2542"/>
+      <stop offset="76%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#334E6D"/>
+    </linearGradient>
+    <radialGradient id="storm-flash" cx="64%" cy="32%" r="34%">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.34"/>
+      <stop offset="35%" stop-color="#F59E0B" stop-opacity="0.14"/>
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0F2542" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="storm-volc-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3552"/>
+      <stop offset="100%" stop-color="#0B192C"/>
+    </linearGradient>
+    <linearGradient id="storm-volc-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F223A"/>
+      <stop offset="100%" stop-color="#050D19"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cielo nocturno de tormenta tropical -->
+  <rect width="1920" height="1080" fill="url(#sky-storm)"/>
+  <rect width="1920" height="1080" fill="url(#storm-flash)"/>
+
+  <!-- Masas de cumulonimbos -->
+  <path d="M0 0 H1920 V330 C1740 365 1540 280 1310 332 C1080 385 880 290 640 342 C410 392 210 310 0 350 Z" fill="#091628" opacity="0.72"/>
+  <path d="M0 0 H1920 V215 C1690 260 1440 185 1170 238 C890 292 610 205 330 250 C190 272 90 252 0 235 Z" fill="#050D1A" opacity="0.65"/>
+
+  <!-- Descarga eléctrica distante y minimalista -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="1245,270 1198,388 1244,394 1185,545 1218,550 1168,662" stroke="#FEF08A" stroke-width="5" opacity="0.78"/>
+    <polyline points="1245,270 1198,388 1244,394 1185,545 1218,550 1168,662" stroke="#F59E0B" stroke-width="14" opacity="0.18"/>
+    <polyline points="1215,442 1260,488 1246,530" stroke="#FDE68A" stroke-width="2.5" opacity="0.55"/>
+  </g>
+
+  <!-- Trazos de lluvia intensa sutil -->
+  <g stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" opacity="0.18">
+    <line x1="220" y1="300" x2="155" y2="500"/>
+    <line x1="480" y1="330" x2="415" y2="530"/>
+    <line x1="760" y1="290" x2="695" y2="490"/>
+    <line x1="1040" y1="340" x2="975" y2="540"/>
+    <line x1="1480" y1="310" x2="1415" y2="510"/>
+    <line x1="1750" y1="340" x2="1685" y2="540"/>
+  </g>
+
+  <!-- Volcanes en contraluz de tormenta -->
+  <path d="M0 785 L270 720 L495 752 L735 588 C756 574 784 574 805 588 L1045 738 L1285 670 L1495 592 C1514 585 1536 586 1554 596 L1775 724 L1920 704 L1920 1080 L0 1080 Z" fill="url(#storm-volc-1)"/>
+  <path d="M0 862 L245 798 L515 838 L760 738 L1020 826 L1315 754 L1580 820 L1810 770 L1920 800 L1920 1080 L0 1080 Z" fill="url(#storm-volc-2)"/>
+
+  <!-- Horizonte oscuro -->
+  <rect x="0" y="950" width="1920" height="130" fill="#040A14"/>
+</svg>

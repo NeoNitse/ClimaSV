@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Nublado">
+  <defs>
+    <linearGradient id="nub-back" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="nub-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="65%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Nube secundaria de fondo -->
+  <path d="M25 38h26c4.4 0 8-3.5 8-7.8 0-3.9-2.9-7.1-6.7-7.6-1.1-5.6-6.1-9.8-12.1-9.8-5.7 0-10.6 3.8-11.9 9.2-4 .5-7.3 3.9-7.3 8 0 4.4 1.8 8 4 8z" fill="url(#nub-back)" stroke="#64748B" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Nube principal frontal -->
+  <path d="M15 51.5h29c5.4 0 9.8-4.2 9.8-9.4 0-4.8-3.6-8.7-8.3-9.3-1.4-6.9-7.6-12-14.9-12-7.1 0-13.1 4.9-14.7 11.5-5.1.6-9.1 4.7-9.1 9.8 0 5.2 3.7 9.4 8.2 9.4z" fill="url(#nub-front)" stroke="#475569" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Contorno de luz sutil -->
+  <path d="M20.5 32.5c1.6-4.1 5.5-6.7 10.1-6.7" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+</svg>

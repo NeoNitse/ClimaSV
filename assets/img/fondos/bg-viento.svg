@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Fondo atmosférico de vientos nortes en El Salvador">
+  <defs>
+    <linearGradient id="sky-wind" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F3D6E"/>
+      <stop offset="36%" stop-color="#1E78C8"/>
+      <stop offset="72%" stop-color="#60B8F0"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="wind-stream" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#E0F2FE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wind-volc-1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B7BB5" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#184C7E" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="wind-volc-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#164675" stop-opacity="0.90"/>
+      <stop offset="100%" stop-color="#0B2A4A" stop-opacity="0.98"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cielo fresco de Vientos Nortes -->
+  <rect width="1920" height="1080" fill="url(#sky-wind)"/>
+
+  <!-- Corrientes aerodinámicas suaves en el cielo -->
+  <g fill="none" stroke="url(#wind-stream)" stroke-linecap="round">
+    <path d="M-80 250 C280 180 620 295 1040 220 C1380 160 1620 215 1980 165" stroke-width="10"/>
+    <path d="M-60 365 C340 310 720 415 1160 340 C1480 285 1710 335 1990 290" stroke-width="7" opacity="0.8"/>
+    <path d="M120 490 C480 435 830 530 1240 468 C1540 422 1740 462 1980 425" stroke-width="5.5" opacity="0.65"/>
+    <path d="M-40 160 C320 115 580 175 940 125" stroke-width="5" opacity="0.55"/>
+  </g>
+
+  <!-- Nubes lenticulares barridas por el viento sobre las cumbres -->
+  <g fill="#FFFFFF" opacity="0.32">
+    <ellipse cx="645" cy="498" rx="180" ry="18"/>
+    <ellipse cx="1365" cy="462" rx="220" ry="20"/>
+    <ellipse cx="1020" cy="365" rx="145" ry="14" opacity="0.7"/>
+  </g>
+
+  <!-- Siluetas volcánicas despejadas -->
+  <path d="M0 785 L235 712 L440 742 L635 566 C655 548 682 548 702 566 L915 732 L1145 668 L1340 572 C1358 563 1380 563 1398 573 L1615 716 L1815 688 L1920 718 L1920 1080 L0 1080 Z" fill="url(#wind-volc-1)"/>
+  <path d="M0 855 L210 792 L460 828 L690 718 L960 818 L1245 748 L1525 812 L1775 752 L1920 786 L1920 1080 L0 1080 Z" fill="url(#wind-volc-2)"/>
+
+  <!-- Horizonte marítimo con oleaje de viento -->
+  <rect x="0" y="928" width="1920" height="152" fill="#0B3058"/>
+  <g fill="none" stroke="#93C5FD" stroke-width="3" stroke-linecap="round" opacity="0.24">
+    <path d="M120 972 Q260 956 400 972 T680 972"/>
+    <path d="M840 1006 Q990 990 1140 1006 T1440 1006"/>
+    <path d="M1360 966 Q1500 952 1640 966 T1890 966"/>
+  </g>
+</svg>

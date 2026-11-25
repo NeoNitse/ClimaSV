@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Soleado">
+  <defs>
+    <linearGradient id="sun-core" x1="18%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="55%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="sun-halo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Halo atmosférico suave -->
+  <circle cx="32" cy="32" r="20" fill="url(#sun-halo)"/>
+
+  <!-- Rayos solares equidistantes -->
+  <g stroke="#F59E0B" stroke-width="3.6" stroke-linecap="round">
+    <line x1="32" y1="6.5" x2="32" y2="12"/>
+    <line x1="32" y1="52" x2="32" y2="57.5"/>
+    <line x1="6.5" y1="32" x2="12" y2="32"/>
+    <line x1="52" y1="32" x2="57.5" y2="32"/>
+    <line x1="14" y1="14" x2="17.9" y2="17.9"/>
+    <line x1="46.1" y1="46.1" x2="50" y2="50"/>
+    <line x1="50" y1="14" x2="46.1" y2="17.9"/>
+    <line x1="17.9" y1="46.1" x2="14" y2="50"/>
+  </g>
+
+  <!-- Disco solar principal -->
+  <circle cx="32" cy="32" r="13.5" fill="url(#sun-core)"/>
+  <!-- Reflejo sutil superior -->
+  <path d="M25.5 26.5a9 9 0 0 1 11.2-2.2" fill="none" stroke="#FEF9C3" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Viento">
+  <defs>
+    <linearGradient id="wind-primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64B5F6"/>
+      <stop offset="100%" stop-color="#0F3D6E"/>
+    </linearGradient>
+    <linearGradient id="wind-secondary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Corriente superior con espiral ascendente -->
+  <path d="M10 21.5h22.5c3.9 0 7-3 7-6.7 0-3.4-2.7-6.1-6.1-6.1-3.1 0-5.6 2.3-5.8 5.3" fill="none" stroke="url(#wind-secondary)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Corriente central principal -->
+  <path d="M8 33.5h40c4.2 0 7.5-3.2 7.5-7.2 0-3.7-3-6.7-6.7-6.7-3.4 0-6.1 2.5-6.3 5.8" fill="none" stroke="url(#wind-primary)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Corriente inferior con espiral descendente -->
+  <path d="M15 44.5h23.5c3.9 0 7 3 7 6.7 0 3.4-2.7 6.1-6.1 6.1-3.1 0-5.6-2.3-5.8-5.3" fill="none" stroke="url(#wind-secondary)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

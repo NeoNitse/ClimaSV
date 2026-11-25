@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Fondo atmosférico soleado con volcanes y costa de El Salvador">
+  <defs>
+    <linearGradient id="sky-sol" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F3D6E"/>
+      <stop offset="34%" stop-color="#1E88E5"/>
+      <stop offset="72%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+    <radialGradient id="sun-glow" cx="78%" cy="22%" r="36%">
+      <stop offset="0%" stop-color="#FEF9C3" stop-opacity="0.95"/>
+      <stop offset="22%" stop-color="#FDE047" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#F59E0B" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mount-far-sol" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82C4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1E5B94" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="mount-mid-sol" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B568E" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#0F3D6E" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="sea-sol" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0C3159"/>
+      <stop offset="55%" stop-color="#144B82"/>
+      <stop offset="80%" stop-color="#256CA8"/>
+      <stop offset="100%" stop-color="#0F3D6E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cielo despejado tropical -->
+  <rect width="1920" height="1080" fill="url(#sky-sol)"/>
+
+  <!-- Resplandor y disco solar -->
+  <rect width="1920" height="1080" fill="url(#sun-glow)"/>
+  <circle cx="1498" cy="238" r="68" fill="#FEF3C7" opacity="0.92"/>
+  <circle cx="1498" cy="238" r="98" fill="#FDE047" opacity="0.22"/>
+
+  <!-- Nubes cirros muy suaves -->
+  <g fill="#FFFFFF" opacity="0.26">
+    <path d="M180 280c55-22 140-26 220-8 42-18 115-16 155 8 52-4 108 10 135 28H115c16-14 38-22 65-28z"/>
+    <path d="M840 195c48-18 112-20 172-5 34-14 92-12 124 5H790c14-10 30-15 50-18z" opacity="0.75"/>
+  </g>
+
+  <!-- Cordillera lejana y silueta cónica estilo Volcán de Izalco / Ilamatepec -->
+  <path d="M0 785 L220 715 L410 742 L615 572 C640 552 668 552 692 572 L870 726 L1095 660 L1275 568 C1292 560 1310 560 1326 570 L1510 718 L1735 685 L1920 735 L1920 1080 L0 1080 Z" fill="url(#mount-far-sol)"/>
+
+  <!-- Cadena volcánica media -->
+  <path d="M0 842 L185 780 L360 808 L540 676 C560 662 584 662 604 676 L795 812 L1015 748 L1190 790 L1410 706 C1428 698 1448 698 1466 708 L1670 812 L1920 778 L1920 1080 L0 1080 Z" fill="url(#mount-mid-sol)"/>
+
+  <!-- Horizonte costero del Pacífico -->
+  <rect x="0" y="902" width="1920" height="178" fill="url(#sea-sol)"/>
+
+  <!-- Reflejo solar sutil sobre el océano -->
+  <g fill="#FDE68A" opacity="0.24">
+    <ellipse cx="1498" cy="924" rx="220" ry="6"/>
+    <ellipse cx="1498" cy="952" rx="165" ry="5"/>
+    <ellipse cx="1498" cy="982" rx="115" ry="4"/>
+    <ellipse cx="1498" cy="1014" rx="75" ry="3.5"/>
+  </g>
+
+  <!-- Silueta costera frontal -->
+  <path d="M0 950 C210 926 390 956 610 996 C740 1020 880 1044 1020 1080 L0 1080 Z" fill="#092442" opacity="0.88"/>
+</svg>

@@ -1,0 +1,105 @@
+/* ==========================================================================
+   ClimaSV — Identidad Visual y Variables CSS (Fase 2)
+   Portal Web Informativo del Clima en El Salvador
+   Tecnología: CSS3 puro (sin frameworks)
+   ========================================================================== */
+
+:root {
+  /* ------------------------------------------------------------------------
+     1. Paleta Cromática Institucional
+     ------------------------------------------------------------------------ */
+  --color-primario: #0F3D6E;          /* Azul institucional profundo */
+  --color-primario-oscuro: #0A2B4F;   /* Hover / encabezados de alto contraste */
+  --color-primario-claro: #1A5694;    /* Variación suave del primario */
+
+  --color-secundario: #1E88E5;        /* Azul cielo / interacción principal */
+  --color-secundario-oscuro: #1565C0; /* Estado activo / hover */
+  --color-secundario-claro: #64B5F6;  /* Detalles atmosféricos / acentos suaves */
+
+  --color-acento: #F59E0B;            /* Ámbar solar / énfasis y destacados */
+  --color-acento-claro: #FBBF24;      /* Brillo solar / badges cálidos */
+  --color-acento-oscuro: #D97706;     /* Hover sobre acento */
+
+  /* ------------------------------------------------------------------------
+     2. Jerarquía Tipográfica y Color de Texto
+     ------------------------------------------------------------------------ */
+  --color-texto-principal: #0F172A;   /* Títulos, cifras y lectura principal */
+  --color-texto-secundario: #475569;  /* Subtítulos, metadatos y etiquetas */
+  --color-texto-tenue: #64748B;       /* Pies de foto, marcas de tiempo */
+  --color-texto-inverso: #FFFFFF;     /* Texto sobre fondos oscuros o fotográficos */
+
+  /* ------------------------------------------------------------------------
+     3. Superficies, Fondos y Bordes
+     ------------------------------------------------------------------------ */
+  --color-superficie-tarjeta: rgba(255, 255, 255, 0.90);
+  --color-superficie-solida: #FFFFFF;
+  --color-superficie-sutil: #F1F5F9;
+  --color-fondo-base: #EBF3FA;
+  --color-borde: rgba(15, 23, 42, 0.08);
+  --color-borde-fuerte: rgba(15, 61, 110, 0.18);
+
+  /* ------------------------------------------------------------------------
+     4. Colores Semánticos de Alertas Meteorológicas (Referencia El Salvador)
+     ------------------------------------------------------------------------ */
+  --color-alerta-verde: #16A34A;
+  --color-alerta-amarilla: #EAB308;
+  --color-alerta-naranja: #EA580C;
+  --color-alerta-roja: #DC2626;
+  --color-info: #0284C7;
+
+  /* ------------------------------------------------------------------------
+     5. Tipografía Institucional
+     ------------------------------------------------------------------------ */
+  --font-titulos: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-cuerpo: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Escala tipográfica fluida y consistente */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 2rem;       /* 32px */
+  --text-temp: clamp(3rem, 6vw, 4.5rem); /* Cifra principal de temperatura */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+
+  /* ------------------------------------------------------------------------
+     6. Espaciado, Radios, Elevación y Transiciones
+     ------------------------------------------------------------------------ */
+  --space-1: 0.25rem;     /* 4px */
+  --space-2: 0.5rem;      /* 8px */
+  --space-3: 0.75rem;     /* 12px */
+  --space-4: 1rem;        /* 16px */
+  --space-5: 1.25rem;     /* 20px */
+  --space-6: 1.5rem;      /* 24px */
+  --space-8: 2rem;        /* 32px */
+  --space-10: 2.5rem;     /* 40px */
+  --space-12: 3rem;       /* 48px */
+
+  --radius-sm: 0.5rem;    /* 8px */
+  --radius-md: 0.875rem;  /* 14px */
+  --radius-lg: 1.25rem;   /* 20px */
+  --radius-xl: 1.75rem;   /* 28px */
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 10px 28px rgba(15, 61, 110, 0.10);
+  --shadow-lg: 0 18px 42px rgba(15, 61, 110, 0.16);
+  --blur-tarjeta: 12px;
+
+  --transition-fast: 150ms ease;
+  --transition-base: 240ms cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Layout */
+  --container-max: 1200px;
+}
